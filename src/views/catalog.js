@@ -1,6 +1,7 @@
 import { html } from '../../node_modules/lit-html/lit-html.js';
 import * as service from '../api/data.js';
 
+
 const cardTemplate = (fruit) => html`
 	<div class="fruit">
 		<img src=${fruit.imageUrl} alt="example1" />
